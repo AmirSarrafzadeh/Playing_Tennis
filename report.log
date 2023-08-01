@@ -1,0 +1,131 @@
+2023-06-24 09:53:42,628 - INFO - Train Dataframe has 700000 rows
+2023-06-24 09:53:42,628 - INFO - Train Dataframe has 5 columns
+2023-06-24 09:53:42,628 - INFO - Test Dataframe has 300000 rows
+2023-06-24 09:53:42,628 - INFO - Test Dataframe has 5 columns
+2023-06-24 09:53:42,628 - INFO - Columns of Train Dataframe are: ['weather condition', 'temperature', 'humidity', 'windy', 'play']
+2023-06-24 09:53:42,628 - INFO - Columns of Test Dataframe are ['outlook', 'temperature', 'humidity', 'windy', 'play']
+2023-06-24 09:53:42,628 - INFO - Types of the columns of the Train Dataframe are: [dtype('O'), dtype('O'), dtype('O'), dtype('O'), dtype('O')]
+2023-06-24 09:53:42,628 - INFO - Types of the columns of the Test Dataframe are: [dtype('O'), dtype('O'), dtype('O'), dtype('bool'), dtype('O')]
+2023-06-24 09:53:42,661 - INFO - Unique values of weather condition in Train Dataframe are: [nan 'SUNNY' 'OVERCAST' 'RAINY']
+2023-06-24 09:53:42,685 - INFO - Unique values of temperature in Train Dataframe are: [nan 'MILD' 'COOL' 'HOT']
+2023-06-24 09:53:42,710 - INFO - Unique values of humidity in Train Dataframe are: ['HIGHT' nan 'NORMAL']
+2023-06-24 09:53:42,731 - INFO - Unique values of windy in Train Dataframe are: [nan True False]
+2023-06-24 09:53:42,748 - INFO - Unique values of play in Train Dataframe are: ['NO' 'YES']
+2023-06-24 09:53:42,758 - INFO - Unique values of outlook in Test Dataframe are: ['SUNNY' 'RAINY' 'OVERCAST']
+2023-06-24 09:53:42,766 - INFO - Unique values of temperature in Test Dataframe are: ['HOT' 'MILD' 'COOL']
+2023-06-24 09:53:42,775 - INFO - Unique values of humidity in Test Dataframe are: ['NORMAL' 'HIGHT']
+2023-06-24 09:53:42,778 - INFO - Unique values of windy in Test Dataframe are: [False  True]
+2023-06-24 09:53:42,786 - INFO - Unique values of play in Test Dataframe are: ['YES' 'NO']
+2023-06-24 09:53:42,811 - INFO - Number of unique values of weather condition in Train Dataframe are: 3
+2023-06-24 09:53:42,836 - INFO - Number of unique values of temperature in Train Dataframe are: 3
+2023-06-24 09:53:42,861 - INFO - Number of unique values of humidity in Train Dataframe are: 2
+2023-06-24 09:53:42,882 - INFO - Number of unique values of windy in Train Dataframe are: 2
+2023-06-24 09:53:42,900 - INFO - Number of unique values of play in Train Dataframe are: 2
+2023-06-24 09:53:42,909 - INFO - Number of unique values of outlook in Test Dataframe are: 3
+2023-06-24 09:53:42,918 - INFO - Number of unique values of temperature in Test Dataframe are: 3
+2023-06-24 09:53:42,926 - INFO - Number of unique values of humidity in Test Dataframe are: 2
+2023-06-24 09:53:42,929 - INFO - Number of unique values of windy in Test Dataframe are: 2
+2023-06-24 09:53:42,938 - INFO - Number of unique values of play in Test Dataframe are: 2
+2023-06-24 09:53:42,953 - INFO - Number of null values of weather condition in Train Dataframe are: 6
+2023-06-24 09:53:42,970 - INFO - Number of null values of temperature in Train Dataframe are: 6
+2023-06-24 09:53:42,987 - INFO - Number of null values of humidity in Train Dataframe are: 4
+2023-06-24 09:53:43,005 - INFO - Number of null values of windy in Train Dataframe are: 6
+2023-06-24 09:53:43,022 - INFO - Number of null values of play in Train Dataframe are: 0
+2023-06-24 09:53:43,029 - INFO - Number of null values of outlook in Test Dataframe are: 0
+2023-06-24 09:53:43,039 - INFO - Number of null values of temperature in Test Dataframe are: 0
+2023-06-24 09:53:43,045 - INFO - Number of null values of humidity in Test Dataframe are: 0
+2023-06-24 09:53:43,045 - INFO - Number of null values of windy in Test Dataframe are: 0
+2023-06-24 09:53:43,053 - INFO - Number of null values of play in Test Dataframe are: 0
+2023-06-24 09:53:43,084 - INFO - Number of null values of weather condition in Train Dataframe are: RAINY       233545
+OVERCAST    233454
+SUNNY       232995
+Name: weather condition, dtype: int64
+2023-06-24 09:53:43,112 - INFO - Number of null values of temperature in Train Dataframe are: COOL    233578
+HOT     233218
+MILD    233198
+Name: temperature, dtype: int64
+2023-06-24 09:53:43,143 - INFO - Number of null values of humidity in Train Dataframe are: NORMAL    350644
+HIGHT     349352
+Name: humidity, dtype: int64
+2023-06-24 09:53:43,167 - INFO - Number of null values of windy in Train Dataframe are: True     350364
+False    349630
+Name: windy, dtype: int64
+2023-06-24 09:53:43,194 - INFO - Number of null values of play in Train Dataframe are: NO     525023
+YES    174977
+Name: play, dtype: int64
+2023-06-24 09:53:43,206 - INFO - Number of null values of outlook in Test Dataframe are: SUNNY       100103
+OVERCAST     99984
+RAINY        99913
+Name: outlook, dtype: int64
+2023-06-24 09:53:43,217 - INFO - Number of null values of temperature in Test Dataframe are: MILD    100108
+HOT     100095
+COOL     99797
+Name: temperature, dtype: int64
+2023-06-24 09:53:43,230 - INFO - Number of null values of humidity in Test Dataframe are: NORMAL    150135
+HIGHT     149865
+Name: humidity, dtype: int64
+2023-06-24 09:53:43,232 - INFO - Number of null values of windy in Test Dataframe are: True     150447
+False    149553
+Name: windy, dtype: int64
+2023-06-24 09:53:43,245 - INFO - Number of null values of play in Test Dataframe are: NO     224795
+YES     75205
+Name: play, dtype: int64
+2023-06-24 09:53:43,944 - INFO - Number of rows with null values in Train Dataframe are: 11
+2023-06-24 09:53:45,437 - INFO - ALL NaN values are filled with the appropriate values
+2023-06-24 09:53:45,576 - INFO - Duplicate rows are dropped from the Train Dataframe
+2023-06-24 09:53:45,628 - INFO - Duplicate rows are dropped from the Test Dataframe
+2023-06-24 09:53:45,644 - INFO - Accuracy of decision tree classifier is: 0.55
+2023-06-24 09:53:45,650 - INFO - Recall of decision tree classifier is: 0.09
+2023-06-24 09:53:45,656 - INFO - F1 Score of decision tree classifier is: 0.17
+2023-06-24 09:53:47,723 - INFO - Accuracy of Random Forest algorithm is: 0.55
+2023-06-24 09:53:47,729 - INFO - Recall of Random Forest algorithm is: 0.61
+2023-06-24 09:53:47,735 - INFO - F1 Score of Random Forest algorithm is: 0.57
+2023-06-24 09:53:47,954 - INFO - Accuracy of SVM algorithm is: 0.55
+2023-06-24 09:53:47,959 - INFO - Recall of SVM algorithm is: 0.82
+2023-06-24 09:53:47,965 - INFO - F1 Score of SVM algorithm is: 0.64
+2023-06-24 09:53:48,167 - INFO - Accuracy of Naive Bayes algorithm is: 0.55
+2023-06-24 09:53:48,173 - INFO - Recall of Naive Bayes algorithm is: 0.64
+2023-06-24 09:53:48,180 - INFO - F1 Score of Naive Bayes algorithm is: 0.58
+2023-06-24 09:53:48,398 - INFO - Accuracy of KNN algorithm is: 0.55
+2023-06-24 09:53:48,403 - INFO - Recall of KNN algorithm is: 0.48
+2023-06-24 09:53:48,409 - INFO - F1 Score of KNN algorithm is: 0.52
+2023-06-24 09:53:48,626 - INFO - Accuracy of Logistic Regression algorithm is: 0.55
+2023-06-24 09:53:48,632 - INFO - Recall of Logistic Regression algorithm is: 0.52
+2023-06-24 09:53:48,638 - INFO - F1 Score of Logistic Regression algorithm is: 0.53
+2023-06-24 09:53:48,846 - INFO - Accuracy of Decision Tree algorithm after applying LDA is: 0.55
+2023-06-24 09:53:48,855 - INFO - Recall of Decision Tree algorithm after applying LDA is: 0.09
+2023-06-24 09:53:48,861 - INFO - F1 Score of Decision Tree algorithm after applying LDA is: 0.17
+2023-06-24 09:53:49,192 - INFO - Accuracy of Random Forest algorithm after applying LDA is: 0.55
+2023-06-24 09:53:49,198 - INFO - Recall of Random Forest algorithm after applying LDA is: 0.48
+2023-06-24 09:53:49,203 - INFO - F1 Score of Random Forest algorithm after applying LDA is: 0.52
+2023-06-24 09:53:49,405 - INFO - Accuracy of SVM algorithm after applying LDA is: 0.55
+2023-06-24 09:53:49,410 - INFO - Recall of SVM algorithm after applying LDA is: 0.58
+2023-06-24 09:53:49,417 - INFO - F1 Score of SVM algorithm after applying LDA is: 0.56
+2023-06-24 09:53:49,615 - INFO - Accuracy of Naive Bayes algorithm after applying LDA is: 0.55
+2023-06-24 09:53:49,621 - INFO - Recall of Naive Bayes algorithm after applying LDA is: 0.58
+2023-06-24 09:53:49,626 - INFO - F1 Score of Naive Bayes algorithm after applying LDA is: 0.56
+2023-06-24 09:53:49,888 - INFO - Accuracy of K-Nearest Neighbors algorithm after applying LDA is: 0.55
+2023-06-24 09:53:49,894 - INFO - Recall of K-Nearest Neighbors algorithm after applying LDA is: 0.55
+2023-06-24 09:53:49,900 - INFO - F1 Score of K-Nearest Neighbors algorithm after applying LDA is: 0.55
+2023-06-24 09:53:50,095 - INFO - Accuracy of Logistic Regression algorithm after applying LDA is: 0.55
+2023-06-24 09:53:50,102 - INFO - Recall of Logistic Regression algorithm after applying LDA is: 0.52
+2023-06-24 09:53:50,107 - INFO - F1 Score of Logistic Regression algorithm after applying LDA is: 0.53
+2023-06-24 09:53:50,299 - INFO - Accuracy of Decision Tree algorithm after applying PCA is: 0.55
+2023-06-24 09:53:50,304 - INFO - Recall of Decision Tree algorithm after applying PCA is: 0.09
+2023-06-24 09:53:50,310 - INFO - F1 Score of Decision Tree algorithm after applying PCA is: 0.17
+2023-06-24 09:53:50,640 - INFO - Accuracy of Random Forest algorithm after applying PCA is: 0.55
+2023-06-24 09:53:50,645 - INFO - Recall of Random Forest algorithm after applying PCA is: 0.52
+2023-06-24 09:53:50,652 - INFO - F1 Score of Random Forest algorithm after applying PCA is: 0.53
+2023-06-24 09:53:50,845 - INFO - Accuracy of Support Vector Machine algorithm after applying PCA is: 0.55
+2023-06-24 09:53:50,851 - INFO - Recall of Support Vector Machine algorithm after applying PCA is: 0.58
+2023-06-24 09:53:50,858 - INFO - F1 Score of Support Vector Machine algorithm after applying PCA is: 0.56
+2023-06-24 09:53:51,051 - INFO - Accuracy of Naive Bayes algorithm after applying PCA is: 0.55
+2023-06-24 09:53:51,059 - INFO - Recall of Naive Bayes algorithm after applying PCA is: 0.58
+2023-06-24 09:53:51,065 - INFO - F1 Score of Naive Bayes algorithm after applying PCA is: 0.56
+2023-06-24 09:53:51,258 - INFO - Accuracy of K-Nearest Neighbors algorithm after applying PCA is: 0.55
+2023-06-24 09:53:51,265 - INFO - Recall of K-Nearest Neighbors algorithm after applying PCA is: 0.61
+2023-06-24 09:53:51,271 - INFO - F1 Score of K-Nearest Neighbors algorithm after applying PCA is: 0.57
+2023-06-24 09:53:51,467 - INFO - Accuracy of Logistic Regression algorithm after applying PCA is: 0.55
+2023-06-24 09:53:51,472 - INFO - Recall of Logistic Regression algorithm after applying PCA is: 0.52
+2023-06-24 09:53:51,477 - INFO - F1 Score of Logistic Regression algorithm after applying PCA is: 0.53
+2023-06-24 09:53:52,020 - INFO - Results saved to Excel file
